@@ -11,3 +11,4 @@
 		<p>https://example.com/this/is/an/example/of/the/process</p>
 		<p>	TO</p>
 		<p>read://https_example.com/?url=https%3A%2F%2Fexample.com%2Fthis%2Fis%2Fan%2Fexample%2Fof%2Fthe%2Fprocess</p>
+<p>Credits: The favicon for Convert to Reading Mode comes from the Material Design logo set at <a href="https://material.io/resources/icons">material.io</a></p>
