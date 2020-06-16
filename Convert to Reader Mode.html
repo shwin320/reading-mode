@@ -1,0 +1,59 @@
+<html>
+	<head>
+		<title>Convert to Reader Mode</title>
+		<link rel="icon" href="C:\Users\shwin\Downloads\logo.ico">
+		<style>
+			#url{
+				width: 300px;
+			}
+			h1{
+				font-family: Arial;
+				margin-bottom: 0px;
+				font-size: 40px;
+			}
+			h2{
+				font-family: Arial;
+				margin-top: 0px;
+				font-size: 25px;
+			}
+			a{
+				font-family: Arial;
+				color: #0066ff;
+				text-decoration: none;
+			}
+			a:hover{
+				text-decoration: underline;
+				opacity: 0.5;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Convert to Reader Mode</h1>
+		<h2>Force Reader Mode on any Website in Microsoft Edge</h2>
+		<br><br>
+		<form id="convert">
+			<input type="text" placeholder='Enter original URL (in full, including "https://")' id="url">
+			<input type="submit">
+		</form>
+		<br>
+		<a href="" id="link" target="_blank"></a>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script>
+			var $convert = function(evt){
+				evt.preventDefault();
+				var $url = $("#url").val();
+				var getDomain = $url.split("/");
+				var domain = getDomain[2];
+				var replaceHTTPS = $url.replace("://", "%3A%2F%2F");
+				var replaceSlash = replaceHTTPS.replace("/", "%2F");
+				var read = "read://https_"+domain+"/?url=";
+				var newURL = read+replaceSlash;
+				$("#link")
+					.attr("href", newURL)
+					.html(newURL);
+				$("#url").val("");
+			};
+			$("#convert").on("submit", $convert);
+		</script>
+	</body>
+</html>
