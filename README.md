@@ -8,7 +8,7 @@
 	<h2>URL Form</h2>
 		<p>read://https_<strong>(domain name)</strong>/?url=https%3A%2F%2F<strong>(domain name)</strong>%2F<strong>type</strong>%2F<strong>rest</strong>%2F<strong>of</strong>%2F<strong>URL</strong>%2F<strong>here</strong></p>
 	<h2>Example of URL Conversion</h2>
-		<span>htt</span><span>ps://example.com/this/is/an/example/of/the/process</span>
+		<span>htt</span><p>ps://example.com/this/is/an/example/of/the/process</p>
 		<strong>TO</strong>
 		<p>read://https_example.com/?url=https%3A%2F%2Fexample.com%2Fthis%2Fis%2Fan%2Fexample%2Fof%2Fthe%2Fprocess</p>
 	<h2>Convert to Reader Mode</h2>
