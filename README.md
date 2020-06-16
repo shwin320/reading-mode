@@ -1,6 +1,6 @@
 <h1>How to Force Reader Mode on Microsoft Edge: </h1><br>
 	<h2>Reader Mode URL</h2><br>
-		<p>read://https_www.nytimes.com/?url=https%3A%2F%2Fwww.nytimes.com%2F2020%2F06%2F16%2Fworld%2Fasia%2Fnorth-korea-explosion-liaison-office.html</p>
+		<span>read://https_w</span><span>ww.nytimes.com/?url=https%3A%2F%2Fw</span><span>ww.nytimes.com%2F2020%2F06%2F16%2Fworld%2Fasia%2Fnorth-korea-explosion-liaison-office.html</span>
 	<h2>How to Force any URL to Display in Reader Mode</h2>
 		<p>1. URL begins with "read://https_", followed by domain name</p>
 		<p>2. Forward slash, followed by "?url="</p>
@@ -8,7 +8,7 @@
 	<h2>URL Form</h2>
 		<p>read://https_<strong>(domain name)</strong>/?url=https%3A%2F%2F<strong>(domain name)</strong>%2F<strong>type</strong>%2F<strong>rest</strong>%2F<strong>of</strong>%2F<strong>URL</strong>%2F<strong>here</strong></p>
 	<h2>Example of URL Conversion</h2>
-		<p>https://example.com/this/is/an/example/of/the/process</p>
+		<span>htt</span><span>ps://example.com/this/is/an/example/of/the/process</span>
 		<strong>TO</strong>
 		<p>read://https_example.com/?url=https%3A%2F%2Fexample.com%2Fthis%2Fis%2Fan%2Fexample%2Fof%2Fthe%2Fprocess</p>
 	<h2>Convert to Reader Mode</h2>
