@@ -2,13 +2,16 @@
 	<h2>Reader Mode URL</h2><br>
 		<p>read://https_www.nytimes.com/?url=https%3A%2F%2Fwww.nytimes.com%2F2020%2F06%2F16%2Fworld%2Fasia%2Fnorth-korea-explosion-liaison-office.html</p>
 	<h2>How to Force any URL to Display in Reader Mode</h2>
-		<p>	•URL begins with "read://https_", followed by domain name</p>
-		<p>	•Forward slash, followed by "?url="</p>
-		<p>	•Type URL, with "://" (as in "https://") replaced with "%3A%2F%2F", and "/" replaced with "%2F"</p>
+		<p>1. URL begins with "read://https_", followed by domain name</p>
+		<p>2. Forward slash, followed by "?url="</p>
+		<p>3. Type URL, with "://" (as in "https://") replaced with "%3A%2F%2F", and "/" replaced with "%2F"</p>
 	<h2>URL Form</h2>
-		<p>read://https_(domain name)/?url=https%3A%2F%2F(domain name)%2Ftype%2Frest%2Fof%2FURL%2Fhere</p>
+		<p>read://https_<strong>(domain name)</strong>/?url=https%3A%2F%2F<strong>(domain name)</strong>%2F<strong>type</strong>%2F<strong>rest</strong>%2F<strong>of</strong>%2F<strong>URL</strong>%2F<strong>here</strong></p>
 	<h2>Example of URL Conversion</h2>
 		<p>https://example.com/this/is/an/example/of/the/process</p>
-		<p>	TO</p>
+		<strong>TO</strong>
 		<p>read://https_example.com/?url=https%3A%2F%2Fexample.com%2Fthis%2Fis%2Fan%2Fexample%2Fof%2Fthe%2Fprocess</p>
-<br><p>Credits: The favicon for Convert to Reading Mode comes from the Material Design logo set at <a href="https://material.io/resources/icons/?icon=chrome_reader_mode&style=baseline">material.io</a></p>
+	<h2>Convert to Reader Mode</h2>
+		<p>Convert to Reader Mode automates the process of converting any regular URL into a Reader Mode URL. You just need to enter the full URL of the webpage you want to display in Reader Mode, click "Submit", and you will get the Reader Mode URL.</p>
+	<h2>Credits</h2>
+		<p>The favicon for Convert to Reading Mode comes from Google's Material Design icon set at <a href="https://material.io/resources/icons/?icon=chrome_reader_mode&style=baseline">material.io</a></p>
