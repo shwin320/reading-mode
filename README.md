@@ -12,6 +12,6 @@
 		<strong>TO</strong>
 		<p>read://https_example.com/?url=https%3A%2F%2Fexample.com%2Fthis%2Fis%2Fan%2Fexample%2Fof%2Fthe%2Fprocess</p>
 	<h2>Convert to Reader Mode</h2>
-		<p>Convert to Reader Mode automates the process of converting any regular URL into a Reader Mode URL. You just need to enter the full URL of the webpage you want to display in Reader Mode, click "Submit", and you will get the Reader Mode URL.</p>
+		<p><a href="https://shwin320.github.io/reading_mode">Convert to Reader Mode</a> automates the process of converting any regular URL into a Reader Mode URL. You just need to enter the full URL of the webpage you want to display in Reader Mode, click "Submit", and you will get the Reader Mode URL.</p>
 	<h2>Credits</h2>
 		<p>The favicon for Convert to Reading Mode comes from Google's Material Design icon set at <a href="https://material.io/resources/icons/?icon=chrome_reader_mode&style=baseline">material.io</a></p>
